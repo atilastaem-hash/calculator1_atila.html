@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcultor</title>
+    <style>
+        body {
+            background-color: #10152e;
+
+        }
+
+        .page {
+            width: 320px;
+            height: 460px;
+            background-color: #252c42; 
+            margin: 100px auto;
+            border-radius: 15px;
+            position: relative;
+
+
+        }
+
+        .input1 {
+            background-color: #111827;
+            color: white;
+            width: 280px;
+            height: 70px;
+            margin: 20px 13px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            font-size: 30px;
+            border: 1px solid white;
+            padding-left: 10px;
+
+        }
+
+
+        .button1 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 7px;
+            border-radius: 8px;
+            background-color: #e53935;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button2 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button3 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button4 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button5 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 7px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button6 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button7 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button8 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button9 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 7px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button10 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button11 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button12 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button13 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 7px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button14 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button15 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button16 {
+            width: 65px;
+            height: 124px;
+            font-size: 20px;
+            margin: 6px;
+            margin-left: 9px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            position: absolute;
+            cursor: pointer;
+        }
+
+
+        .button17 {
+            width: 143px;
+            height: 55px;
+            font-size: 20px;
+            margin: 7px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .button18 {
+            width: 65px;
+            height: 55px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 8px;
+            background-color: #414c68;
+            border: 1px solid black;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        p {
+            position: absolute;
+            top:10px;
+            left: 10px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <input type="text" value="0" class="input1" id="display" readonly>
+
+        <button class="button1">C</button>
+        <button class="button2">⌫</button>
+        <button class="button3">%</button>
+        <button class="button4">×</button>
+
+
+        <button class="button5">7</button>
+        <button class="button6">8</button>
+        <button class="button7">9</button>
+        <button class="button8">-</button>
+
+
+        <button class="button9">4</button>
+        <button class="button10">5</button>
+        <button class="button11">6</button>
+        <button class="button12">+</button>
+
+
+        <button class="button13">1</button>
+        <button class="button14">2</button>
+        <button class="button15">3</button>
+        <button class="button16">=</button>
+
+
+        <button class="button17">0</button>
+        <button class="button18">.</button>
+
+
+
+    </div>
+
+    <div dir="rtl">
+        <p>Created by Atila</p>
+    </div>
+
+    <script>
+        const display = document.getElementById("display");
+
+        function addToDisplay(value) {
+            if (display.value === "Error") display.value = "0";
+
+            if (display.value === "0" && value !== ".") {
+                display.value = value;
+            } else {
+                display.value += value;
+            }
+        }
+
+        function clearDisplay() {
+            display.value = "0";
+        }
+
+        function deleteLast() {
+            display.value = display.value.slice(0, -1);
+            if (display.value === "" || display.value === "Error") {
+                display.value = "0";
+            }
+        }
+
+        function calculate() {
+            try {
+                const expression = display.value;
+
+                // فقط عددها و عملگرهای ماشین‌حساب اجازه دارند.
+                if (!/^[0-9+\-*/.() ]+$/.test(expression)) {
+                    throw new Error("Invalid expression");
+                }
+
+                const result = Function('"use strict"; return (' + expression + ')')();
+
+                if (!Number.isFinite(result)) {
+                    throw new Error("Invalid result");
+                }
+
+                display.value = String(Number(result.toFixed(10)));
+            } catch (error) {
+                display.value = "Error";
+            }
+        }
+
+        document.querySelector(".button1").addEventListener("click", clearDisplay);
+        document.querySelector(".button2").addEventListener("click", deleteLast);
+        document.querySelector(".button3").addEventListener("click", function () {
+            if (display.value !== "0" && /[0-9)]$/.test(display.value)) {
+                display.value += "/100";
+            }
+        });
+        document.querySelector(".button4").addEventListener("click", () => addToDisplay("*"));
+        document.querySelector(".button8").addEventListener("click", () => addToDisplay("-"));
+        document.querySelector(".button12").addEventListener("click", () => addToDisplay("+"));
+        document.querySelector(".button16").addEventListener("click", calculate);
+        document.querySelector(".button17").addEventListener("click", () => addToDisplay("0"));
+        document.querySelector(".button18").addEventListener("click", () => addToDisplay("."));
+
+        document.querySelectorAll(
+            ".button5, .button6, .button7, .button9, .button10, .button11, .button13, .button14, .button15"
+        ).forEach(button => {
+            button.addEventListener("click", () => addToDisplay(button.textContent.trim()));
+        });
+    </script>
+
+</body>
+
+</html>
